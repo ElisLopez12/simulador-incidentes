@@ -85,7 +85,7 @@ El proyecto utiliza únicamente librerías estándar de Python:
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/simulador-incidentes.git
+git clone https://github.com/ElisLopez12/simulador-incidentes
 ```
 
 2. Entrar al directorio del proyecto:
@@ -160,7 +160,7 @@ Esto permite que el sistema sea **escalable, mantenible y fácil de extender**.
 
 **Grupo 10 de la Materia Traductores e interpretes**
 
-**Elis Lopez**
+**Elis López**
 **Bárbara Pedrique**
 **Dehinert Moran**
 **Brandon Morales**

@@ -67,7 +67,7 @@ class SimuladorController:
             else:
                 return "✅ Incidente resuelto correctamente."
         else:
-            self.puntaje -= 5
+            self.puntaje -= 10
             self.acciones_incorrectas += 1
             return "❌ Acción incorrecta. Intente otra respuesta."
 
@@ -84,6 +84,8 @@ class SimuladorController:
         self.guardar_resumen()
 
     def guardar_resumen(self):
+        if self.incidentes_generados == 0:
+            return  # No guardar resumen si no hay incidentes generados
         os.makedirs("logs", exist_ok=True)
         ruta_log = "logs/historial.log"
 

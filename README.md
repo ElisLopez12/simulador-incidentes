@@ -57,7 +57,6 @@ simulador_incidentes/
 ├── logs/
 │   └── historial.log       # Registro de la simulación
 │
-├── requirements.txt        # Dependencias del proyecto
 ├── main.py                 # Punto de entrada de la aplicación
 └── README.md               # Documentación del proyecto
 ```
@@ -154,16 +153,5 @@ Esto permite que el sistema sea **escalable, mantenible y fácil de extender**.
 * Indicador de dificultad del incidente
 * Estadísticas visuales
 
----
 
-## 👤 Autores
-
-**Grupo 10 de la Materia Traductores e interpretes**
-
-**Elis López**
-**Bárbara Pedrique**
-**Dehinert Moran**
-**Brandon Morales**
-Proyecto académico – Simulación y seguridad informática
-
----
+Proyecto académico – Simulación y seguridad informática     

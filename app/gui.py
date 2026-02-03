@@ -138,6 +138,10 @@ class SimuladorGUI:
 
     def ejecutar_accion(self, accion):
         mensaje = self.controller.evaluar_accion(accion)
+        if mensaje.startswith("❌"):
+            self.texto_resultado.config(fg="#e74c3c")  # rojo para incorrecto
+        else:
+            self.texto_resultado.config(fg="#27ae60")  # verde para correcto
         self.texto_resultado.config(text=mensaje)
         self.actualizar_puntaje()
         if "Incidente resuelto" in mensaje:
